@@ -1,0 +1,51 @@
+.container{ display: flex;
+    .miniBalls{
+        .title{
+            display: flex;
+            height: 100px;
+            align-items: flex-end;
+            position:relative;
+            left: 190px;
+        }
+        .ball1{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: yellow;
+            border: solid 4px black;
+
+            }
+        .ball2{
+            width: 90px;
+            height: 90px;
+            background-color: orange;
+            border-radius: 50%;
+            border: solid 4px black;
+        
+            }
+        
+        .ball3 {
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            border-radius: 50%;
+            border: solid 4px black;
+
+        
+        }
+    }  
+        
+    .dropZone {
+        .ball {
+            width: 200px;
+             height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            border: solid 4px black;
+            position: absolute;
+            right: 400px;
+            top: 20px;
+                
+            }
+    }
+}

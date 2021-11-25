@@ -1,0 +1,53 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .miniBalls .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  left: 190px;
+}
+
+.container .miniBalls .ball1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: solid 4px black;
+}
+
+.container .miniBalls .ball2 {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  border-radius: 50%;
+  border: solid 4px black;
+}
+
+.container .miniBalls .ball3 {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  border: solid 4px black;
+}
+
+.container .dropZone .ball {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  border: solid 4px black;
+  position: absolute;
+  right: 350px;
+  top: 15px;
+}
+/*# sourceMappingURL=main.css.map */
